@@ -17,6 +17,23 @@
     background-color: #ff0000;
     color: white;
   } */
+  
+  header .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .search-bar {
+    padding: 5px;
+    width: 300px;
+  }
+  
+  .main-content {
+    display: flex;
+    padding: 20px;
+  }
+
+
 
   .sidebar {
     height: 100vh;
@@ -64,23 +81,9 @@
       margin-left: 0;
     }
   }
+
   
-  header .logo {
-    font-size: 24px;
-    font-weight: bold;
-  }
-  
-  .search-bar {
-    padding: 5px;
-    width: 300px;
-  }
-  
-  .main-content {
-    display: flex;
-    padding: 20px;
-  }
-  
-  .sidebar {
+  /* .sidebar {
     width: 200px;
     background-color: #f1f1f1;
     padding: 10px;
@@ -92,7 +95,7 @@
   
   .sidebar li {
     margin: 10px 0;
-  }
+  } */
   
   .video-grid {
     display: grid;
